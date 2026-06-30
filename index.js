@@ -331,8 +331,8 @@
     if (hotspot.video) {
       text.innerHTML = `
         <iframe
-          width="320"
-          height="180"
+          width="560"
+          height="315"
           src="${hotspot.video}"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
