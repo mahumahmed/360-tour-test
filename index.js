@@ -327,7 +327,21 @@
     // Create text element.
     var text = document.createElement('div');
     text.classList.add('info-hotspot-text');
-    text.innerHTML = hotspot.text;
+
+    if (hotspot.video) {
+      text.innerHTML = `
+        <iframe
+          width="320"
+          height="180"
+          src="${hotspot.video}"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      `;
+    } else {
+      text.innerHTML = hotspot.text;
+    }
 
     // Place header and text into wrapper element.
     wrapper.appendChild(header);
