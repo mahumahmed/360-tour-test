@@ -363,6 +363,226 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
+        "yaw": -1.527606881767639,
+        "pitch": 0.07167264485909364,
+        "fov": 1.4748343143892102
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.07633694580712991,
+          "pitch": 0.1372783336609995,
+          "rotation": 0,
+          "target": "10-printing-and-study-area"
+        },
+        {
+          "yaw": 1.5455524622197645,
+          "pitch": 0.02840515100983687,
+          "rotation": 0,
+          "target": "6-dsc-classroom-entrance"
+        },
+        {
+          "yaw": -2.5751271701125518,
+          "pitch": 0.0631083945837041,
+          "rotation": 0,
+          "target": "4-3d-printer-room-entrance"
+        },
+        {
+          "yaw": -2.422449235354165,
+          "pitch": -0.010037061045863993,
+          "rotation": 0.7853981633974483,
+          "target": "8-laser-cutting-room-entrance"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.4381288059120152,
+          "pitch": 0.03390213414851395,
+          "title": "DSC Offices",
+          "text": "Behind this door is where our hardworking staff work their magic!"
+        },
+        {
+          "yaw": 2.8822270399307,
+          "pitch": -0.2514309321124113,
+          "title": "Intro Video",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "8-laser-cutting-room-entrance",
+      "name": "Laser Cutting Room Entrance",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "yaw": -2.9816570275888843,
+        "pitch": -0.013824204539085727,
+        "fov": 1.4748343143892102
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.991255227420682,
+          "pitch": 0.5150639460187563,
+          "rotation": 0,
+          "target": "9-laser-cutting-room"
+        },
+        {
+          "yaw": -1.392939591966476,
+          "pitch": 0.2641962515340257,
+          "rotation": 0.7853981633974483,
+          "target": "4-3d-printer-room-entrance"
+        },
+        {
+          "yaw": -1.7231234948066536,
+          "pitch": 0.23679462480944835,
+          "rotation": 5.497787143782138,
+          "target": "7-dsc-classroom"
+        },
+        {
+          "yaw": -1.550766248850211,
+          "pitch": 0.09276970976957877,
+          "rotation": 0,
+          "target": "3-hallway"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-laser-cutting-room",
+      "name": "Laser Cutting Room",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "yaw": -2.736817303834325,
+        "pitch": 0.3526119020791647,
+        "fov": 1.4748343143892102
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4269817407252638,
+          "pitch": 0.39834924742199007,
+          "rotation": 0,
+          "target": "8-laser-cutting-room-entrance"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-printing-and-study-area",
+      "name": "Printing and Study Area",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "yaw": -2.8324026931173876,
+        "pitch": -0.11263891682899008,
+        "fov": 1.4748343143892102
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.011005645411660936,
+          "pitch": 0.30497624334292084,
+          "rotation": 0,
+          "target": "7-dsc-classroom"
+        },
+        {
+          "yaw": -0.4910709020017503,
+          "pitch": 0.17209111878665695,
+          "rotation": 5.497787143782138,
+          "target": "6-dsc-classroom-entrance"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.533140893968797,
+          "pitch": -0.15890828136255486,
+          "title": "Large Format Printer",
+          "text": "Students can print large-format posters for academic or personal projects. These affordable prints are ideal for drafts, test prints, or temporary displays, with customizable lengths at 36\" wide."
+        },
+        {
+          "yaw": 0.9934449730267296,
+          "pitch": -0.15726756713796064,
+          "title": "3D Printer Filament Drop-Off",
+          "text": "3D printer filament drop-off boxes are available for UVic and community members who would like to recycle used or leftover 3D printing filament.&nbsp;"
+        }
+      ]
+    },
+    {
+      "id": "11-study-lounge",
+      "name": "Study Lounge",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
         "yaw": 2.747821274963534,
         "pitch": 0.0674639012000906,
         "fov": 1.4748343143892102
@@ -375,14 +595,7 @@ var APP_DATA = {
           "target": "6-dsc-classroom-entrance"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 2.5,
-          "pitch": 0.0,
-          "title": "Intro Video",
-          "text": "<iframe width='100%' height='200' src='https://youtube.com_' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
-        }
-      ]
+      "infoHotspots": []
     }
   ],
   "name": "Project Title",
@@ -393,3 +606,4 @@ var APP_DATA = {
     "viewControlButtons": false
   }
 };
+
