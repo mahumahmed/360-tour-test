@@ -401,8 +401,8 @@ var APP_DATA = {
           "text": "Behind this door is where our hardworking staff work their magic!"
         },
         {
-          "yaw": 2.8822270399307,
-          "pitch": -0.38,
+          "yaw": 2.82,
+          "pitch": -0.36,
           "title": "Intro Video",
           "text": "",
           "video": "https://www.youtube.com/embed/G51MmepmAQA"
